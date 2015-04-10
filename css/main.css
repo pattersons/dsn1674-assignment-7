@@ -1,0 +1,17 @@
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Dosis', sans-serif;
+  margin: 0;
+}
+.masthead {
+  background-image: url("../img/beetle.svg"), url("../img/beetle.svg"), url("../img/waves.png");
+  background-size: 75px auto, 75px auto, 100px auto;
+  background-repeat: no-repeat, no-repeat, repeat;
+  background-position: left top, right top, center 10px;
