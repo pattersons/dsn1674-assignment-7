@@ -17,41 +17,64 @@ body {
   background-repeat: no-repeat, no-repeat, repeat;
   background-position: left top, right top, center 10px;
 
-  h1 {
-    text-align: center;
-    color: #512200;
-    margin: 0;
-    padding: 25px 0;
-  }
-  nav a {
-    text-decoration: none;
-    display: block;
-    margin: 0;
-    padding: 1em;
-    color: white;
-    background-color: #512200;
-    opacity: 0.5;
-    font-weight: bold;
-    text-align: center;
-    font-size: 0.9em;
-  }
+h1 {
+  text-align: center;
+  color: #512200;
+  margin: 0;
+  padding: 25px 0;
+}
+nav a {
+  text-decoration: none;
+  display: block;
+  margin: 0;
+  padding: 1em;
+  color: white;
+  background-color: #512200;
+  opacity: 0.5;
+  font-weight: bold;
+  text-align: center;
+  font-size: 0.9em;
+}
 
-  a:hover {
-    background-color: #512200;
-    opacity: .75;
-    color: white;
-  }
-  nav li {
-    list-style-type: none;
-    display: inline-block;
-    float: left;
-    overflow: hidden;
-    text-align: center;
-    width: 25%;
-  }
-  nav ol{
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-  }
+a:hover {
+  background-color: #512200;
+  opacity: .75;
+  color: white;
+}
+nav li {
+  list-style-type: none;
+  display: inline-block;
+  float: left;
+  overflow: hidden;
+  text-align: center;
+  width: 25%;
+}
+nav ol{
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.rocks {
+  width: 100%;
+  position: relative;
+}
+.words {
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  width: 100%;
+  bottom: 0em;
+  font-size: 1.5em;
+  font-weight: bold;
+  float: center;
+  padding: 0 25px;
+}
+img {
+  width: 100%;
+  display: block;
+}
+figure {
+  margin: 0;
+}
